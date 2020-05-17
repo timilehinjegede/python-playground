@@ -31,12 +31,10 @@ print(fruits.clear())
 print(fruits.pop())
 # reverses all entries in a list
 fruits.reverse()
-print(fruits)
 # removes the specified item from the list
 fruits.remove('pear')
 # sorts the list alphabetically
 fruits.sort()
 # similar to using the '+' operator to join a list
 fruits.extend(drinks)
-print(fruits)
 
