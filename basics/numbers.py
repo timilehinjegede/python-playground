@@ -12,3 +12,10 @@ print(34 * 2)
 print(2 ** 6)
 # modulo
 print(16 % 3)
+
+# working with rule of precedence
+print(2 + 4 - 5 * 4)
+print((5 + 9) - (1 * 4))
+print(4 * 2 + (4 - 5))
+
+
