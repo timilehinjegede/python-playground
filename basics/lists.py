@@ -23,3 +23,20 @@ print(fruits+drinks)
 print(len(fruits))
 # checking if an item is present in the list
 print('pear' in fruits)  # returns a boolean
+
+# exploring list methods
+# removes all the values in a list
+print(fruits.clear())
+# removes and returns the last value in the list
+print(fruits.pop())
+# reverses all entries in a list
+fruits.reverse()
+print(fruits)
+# removes the specified item from the list
+fruits.remove('pear')
+# sorts the list alphabetically
+fruits.sort()
+# similar to using the '+' operator to join a list
+fruits.extend(drinks)
+print(fruits)
+
