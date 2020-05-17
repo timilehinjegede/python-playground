@@ -6,13 +6,10 @@ fruits = ['banana', 'peach', 'orange', 'apple', 'grape']
 print(fruits[3])
 # mutating a list
 fruits[0] = 'strawberry'  # changes the element at specified index to the assigned element
-print(fruits)
 # adding values to the end of a list
 fruits.append('pineapples')
-print(fruits)
 # adding values to a specified position in the list
 fruits.insert(2, 'pear')
-print(fruits)
 # getting the index of a specified element in the list
 print(fruits.index('pineapples'))
 # accessing the last element of a list
